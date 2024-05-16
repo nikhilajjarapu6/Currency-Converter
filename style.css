@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:coral;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* height: 500px; */
+    box-sizing: content-box;
+}
+
+label {
+    font-weight: bold;
+}
+p{
+    margin-bottom: 0px;
+}
+
+select, input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 7px;
+    margin-bottom: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    scrollbar-width: 1px;
+    scrollbar-color: #ff0000 transparent;
+    /* overflow: hidden; */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.msg{
+    margin: 15px 0px;
+}
+.custom-option {
+    font-size: 14px; 
+    color:white; 
+    background-color:rgb(0, 0, 0);
+    padding: 5px 10px;   
+}
+.custom-option:hover{
+    background-color: coral;
+}
+
+select::-webkit-scrollbar-track {
+    background-color: red;
+}
+
+
+select::-webkit-scrollbar-thumb {
+    background-color: #ff0a0a;
+    border-radius: 2px; 
+}
+
+select::-webkit-scrollbar-thumb:hover {
+    background-color: #999; 
+}
+.author {
+    display: flex;
+    position: absolute;
+    top: 92vh;
+    right:7vh;
+    margin-left: 40px;
+    border: 1px solid teal;
+    border-radius: 7px;
+    font-size: 12px;
+}
+
+
+.author a {
+    text-decoration: none;
+    color:gray;
+    margin: 5px;
+}
+.author span a{
+    /* text-align: center; */
+    position: relative;
+    top: 20%;
+}
+
+@media screen and (max-width:420px) {
+    .container {
+        width: 70%; 
+    }
+    .author {
+        top: 95vh; /* Adjust position for smaller screens */
+        right: 5vh; /* Adjust position for smaller screens */
+        font-size: 7px;
+        border-radius: 5px;
+      }
+
+}
+
