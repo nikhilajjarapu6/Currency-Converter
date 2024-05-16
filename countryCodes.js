@@ -83,7 +83,7 @@ const countryList = {
   KZT: "Kazakhstan",
   LAK: "Laos",
   LBP: "Lebanon",
-  LKR: "Sri Lankan",
+  LKR: "Sri Lanka",
   LRD: "Liberia",
   LSL: "Lesotho",
   LTL: "Lithuania",
